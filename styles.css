@@ -6,6 +6,15 @@
     font-family: 'Roboto', sans-serif; 
 }
 
-nav{
-    height: 70px;
+.nav__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__logo{
+    display: flex;
+}
+
+.img__logo{
+    
 }
