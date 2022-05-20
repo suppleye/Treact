@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif; 
 }
 
+body{
+    padding: 36px;
+}
+
 .nav__links{
     display: flex;
     justify-content: space-between;
@@ -13,8 +17,14 @@
 
 .main__logo{
     display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0px 24px 0px 0px;
+    padding: 0px 0px 4px;
 }
 
-.img__logo{
-    
+img{
+    width: 40px;
+    margin: 0px 12px 0px 0px;
 }
