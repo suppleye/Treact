@@ -6,30 +6,51 @@
     font-family: 'Roboto', sans-serif; 
 }
 
-body{
-    padding: 56px;
-}
-
-.main__header{
+nav{
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1280px;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 132px;
+    padding-top: 40px;
 }
 
-.main__logo{
+a{
+    color: inherit;
+    font-size: 14px;
+    text-decoration: inherit;
+}
+
+.logo{
+    width: 40px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+}
+
+.login{
+    padding-left: 48px;
+}
+
+li{
+    list-style: none;
+    padding: 16px;
+}
+
+button{
+    padding: 0 40px;
+    border-radius: 6%;
+    background-color: rgba(100,21,255);
+    color: rgba(247,250,252);
+    border-width: 0px;
+}
+
+h1{
     display: flex;
     align-items: center;
-    font-weight: 900;
+    padding: 8px;
     font-size: 24px;
-    margin: 0px 24px 0px 0px;
-    padding: 0px 0px 4px;
-}
-
-img{
-    width: 40px;
-    margin: 0px 12px 0px 0px;
+    font-weight: 900;
 }
