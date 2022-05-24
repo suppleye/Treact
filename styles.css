@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap');
+*, :after, :before{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif; 
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 
 nav{
@@ -19,6 +19,7 @@ a{
     color: inherit;
     font-size: 14px;
     text-decoration: none;
+    position: relative;
 }
 
 .logo{
@@ -42,12 +43,12 @@ ul{
 li{
     list-style: none;
     padding: 16px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
-li:hover{
+.link__hover-effect:hover{
     text-decoration: underline;
-    text-underline-offset: 5px;
+    text-underline-offset: 10px;
     color: rgba(100,21,255);  
     transition: 400ms ease;
 }
@@ -56,18 +57,12 @@ button{
     padding: 0 30px;
     margin-top: 6px;
     margin-bottom: 6px;
-    border-radius: 24px 24px 24px;
+    border-radius: 24px;
     border: none;
     background-color: rgba(100,21,255);
     color: rgba(247,250,252);
-    border-width: 0;
     cursor: pointer;
-    font-weight: 600;
-}
-
-.btn:hover{
-    background-color: rgba(100,21,255);  
-    transition: 400ms ease;
+    font-weight: 700;
 }
 
 h1{
@@ -76,4 +71,11 @@ h1{
     padding: 8px;
     font-size: 24px;
     font-weight: 900;
+}
+
+/*coulmn container*/
+
+.twocoulumn__container{
+    position: relative;
+    padding: 96px 0;
 }
