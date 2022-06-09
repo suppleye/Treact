@@ -24,12 +24,14 @@ li{
 
 a{
     text-decoration: none;
+    color: rgb(97, 97, 97);
 }
 
 .logo{
     display: flex;
     align-items: center;
     padding-top: 36px;
+    color: rgb(36, 36, 36);
 }
 
 .main__logo{
