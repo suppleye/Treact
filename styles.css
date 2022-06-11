@@ -110,6 +110,13 @@ a{
 
 /* SECTION 1 */
 
+.two__column{
+    padding-top: 80px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .font__color{
     color: #6415ff;
 }
@@ -121,4 +128,16 @@ a{
 .two__column--paragraph{
     font-size: 18px;
     color: #243e63;
+}
+
+.two__column--input{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+p{
+    font-size: 12px;
+    color: #a0aec0;
 }
