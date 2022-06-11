@@ -12,6 +12,8 @@
     margin: 0 auto;
 }
 
+/* NAV BAR */
+
 .nav__bar{
     display: flex;
     justify-content: space-between;
@@ -105,4 +107,7 @@ a{
 .sign__up{
     margin-top: 36px;
 }
+
+/* SECTION 1 */
+
 
