@@ -110,7 +110,11 @@ a{
 
 /* SECTION 1 */
 
-.two__column{
+.two__column--container{
+    position: relative;
+}
+
+.two__column--left{
     padding-top: 80px;
     width: 100%;
     max-width: 1200px;
@@ -140,4 +144,15 @@ a{
 p{
     font-size: 12px;
     color: #a0aec0;
+    width: 424px;
+}
+
+input{
+    background: #ffff;
+    padding: 20px 192px 20px 32px;
+}
+
+img{
+    margin: 16px 0 0;
+    width: 424px;
 }
