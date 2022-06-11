@@ -111,7 +111,9 @@ a{
 /* SECTION 1 */
 
 .two__column--container{
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .two__column--left{
@@ -119,6 +121,7 @@ a{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .font__color{
@@ -155,4 +158,8 @@ input{
 img{
     margin: 16px 0 0;
     width: 424px;
+}
+
+.right__column-img{
+    width: 100%;
 }
