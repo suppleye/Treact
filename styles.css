@@ -112,8 +112,6 @@ a{
 
 .two__column--container{
     display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .two__column--left{
@@ -160,6 +158,12 @@ img{
     width: 424px;
 }
 
-.right__column-img{
+.two__column--right{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.right__column--img{
     width: 100%;
 }
