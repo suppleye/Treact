@@ -117,7 +117,7 @@ a{
 .two__column--left{
     padding-top: 80px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 500px;
     margin: 0 auto;
     position: relative;
 }
@@ -159,11 +159,13 @@ img{
 }
 
 .two__column--right{
-    display: flex;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .right__column--img{
-    width: 100%;
+    width: 746px;
+    padding-right: 126px;
 }
