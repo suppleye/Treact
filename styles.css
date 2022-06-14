@@ -111,16 +111,16 @@ a{
 /* SECTION 1 */
 
 .two__column--container{
-    display: flex;
-    justify-content: space-between;
+    position: relative;
 }
 
 .two__column--left{
     padding-top: 80px;
-    width: 40%;
     max-width: 1280px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
+    display: flex;
 }
 
 .font__color{
