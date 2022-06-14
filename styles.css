@@ -112,6 +112,7 @@ a{
 
 .two__column--container{
     display: flex;
+    justify-content: space-between;
 }
 
 .two__column--left{
@@ -154,18 +155,5 @@ input{
 }
 
 img{
-    margin: 16px 0 0;
     width: 424px;
-}
-
-.two__column--right{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.right__column--img{
-    width: 746px;
-    padding-right: 126px;
 }
