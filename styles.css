@@ -118,8 +118,7 @@ a{
 .two__column--left{
     padding-top: 80px;
     max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -128,7 +127,7 @@ a{
 }
 
 .two__column--header{
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .two__column--paragraph{
@@ -140,9 +139,9 @@ a{
 }
 
 .two__column--input{
-    max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 80px;
+    text-align: center;
 }
 
 p{
