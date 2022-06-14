@@ -132,8 +132,11 @@ a{
 }
 
 .two__column--paragraph{
+    padding-top: 36px;
+    padding-bottom: 36px;
     font-size: 18px;
     color: #243e63;
+    line-height: 26px;
 }
 
 .two__column--input{
