@@ -39,6 +39,7 @@ a{
 .main__logo{
     margin: 12px;
     width: 40px;
+    padding-bottom: 16px;
 }
 
 .nav__link--list{
