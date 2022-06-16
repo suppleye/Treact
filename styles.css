@@ -117,6 +117,7 @@ a{
 
 .two__column--left{
     padding-top: 80px;
+    padding-left: 12px;
     max-width: 1280px;
     margin: 0 auto;
     position: relative;
@@ -140,8 +141,12 @@ a{
 
 .two__column--input{
     margin: 0 auto;
+    padding-top: 48px;
     padding-bottom: 80px;
-    text-align: center;
+}
+
+.customer-logo{
+    font-weight: 600;
 }
 
 p{
@@ -163,5 +168,10 @@ p{
 }
 
 img{
-    width: 512px;
+    padding-top: 16px;
+    max-width: 100%;
+}
+
+.two__column--right{
+    padding: 80px;
 }
