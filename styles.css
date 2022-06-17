@@ -163,13 +163,16 @@ a{
 
 .left__column--input button{
     border-radius: 9999px;
-    background-color: rgba(247,250,252);
-    font-weight: 700;
+    background-color: #6415ff;
+    font-weight: 600;
     position: absolute;
     top: 6px;
     bottom: 6px;
     right: 6px;
     width: 35%;
+    color: rgba(247,250,252);
+    font-size: 16px;
+    border: none;
 }
 
 .left__column--input{
