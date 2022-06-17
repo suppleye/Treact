@@ -135,7 +135,7 @@ a{
 .two__column--paragraph{
     padding-top: 36px;
     padding-bottom: 36px;
-    font-size: 18px;
+    font-size: 16px;
     color: #243e63;
     line-height: 26px;
 }
@@ -147,19 +147,29 @@ a{
 }
 
 .customer-logo{
-    font-weight: 600;
-}
-
-p{
     font-size: 12px;
     color: #a0aec0;
-    width: 424px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 1;
 }
 
 .left__column--input input{
     background: #ffff;
     padding: 20px 192px 20px 32px;
+    border-radius: 9999px;
     width: 100%;
+}
+
+.left__column--input button{
+    border-radius: 9999px;
+    background-color: rgba(247,250,252);
+    font-weight: 700;
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    right: 6px;
+    width: 35%;
 }
 
 .left__column--input{
