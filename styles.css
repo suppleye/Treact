@@ -160,6 +160,7 @@ a{
     border-radius: 9999px;
     width: 100%;
     border-width: 2px;
+    font-weight: 600;
 }
 
 .left__column--input button{
