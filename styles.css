@@ -204,4 +204,13 @@ h5{
     justify-content: center;
     letter-spacing: 1.5px;
     font-size: 16px;
+    margin: 0 0 16px;
+}
+
+
+.svc{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: .4px;
 }
