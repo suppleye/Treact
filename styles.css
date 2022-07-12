@@ -214,3 +214,10 @@ h5{
     font-weight: 900;
     letter-spacing: .4px;
 }
+
+.svc__para{
+    text-align: center;
+    margin: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+}
