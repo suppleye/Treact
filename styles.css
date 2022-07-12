@@ -192,3 +192,9 @@ img{
 .two__column--right{
     padding: 80px;
 }
+
+/*FEATURES*/
+
+#features{
+    position: relative;
+}
