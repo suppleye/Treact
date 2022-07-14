@@ -236,3 +236,12 @@ h5{
     margin: 0 auto;
 }
 
+.highlight__subtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.highlight__para{
+    text-align: center
+}
+
