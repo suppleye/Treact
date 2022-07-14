@@ -227,13 +227,5 @@ h5{
 
 .highlight__wrapper{
     display: flex;
-    flex-wrap: wrap;
-}
 
-.highlights{
-    margin: 0 auto;
-    width: calc(100/3);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
