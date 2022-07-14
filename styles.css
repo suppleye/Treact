@@ -227,5 +227,12 @@ h5{
 
 .highlight__wrapper{
     display: flex;
-
+    flex-wrap: wrap;
 }
+
+.highlights{
+    width: 30%;
+    padding: 24px;
+    margin: 0 auto;
+}
+
